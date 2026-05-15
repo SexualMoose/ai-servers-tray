@@ -1,0 +1,27 @@
+# Runtime / user-specific (NEVER commit these)
+config.json
+monitor.json
+monitor_state.json
+*.log
+
+# Backups
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Diagnostic scripts
+_diag_*.py
+_fix_*.py
